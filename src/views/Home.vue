@@ -16,7 +16,7 @@ export default {
         { name: '中国地图', url: '/ChinaMap' },
         { name: '高德地图', url: '/map' },
         { name: '微信分享', url: '/share' },
-        { name: '文件上传', url: '/AMap' },
+        { name: '文件上传', url: '/upload' },
         { name: '省市联动', url: '/AMap' },
         { name: 'pdf预览', url: '/pdf' }
       ]

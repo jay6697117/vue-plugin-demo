@@ -38,6 +38,11 @@ const routes = [
     path: '/pdf1',
     component: () => import('../views/pdf1.vue'),
     meta: { title: 'pdf预览' }
+  },
+  {
+    path: '/upload',
+    component: () => import('../views/upload.vue'),
+    meta: { title: '图片上传预览' }
   }
 ]
 
