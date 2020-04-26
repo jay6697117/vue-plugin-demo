@@ -6,33 +6,38 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
     component: () => import('../views/Home.vue'),
     meta: { title: '首页' }
   },
   {
     path: '/qrCode',
-    name: 'qrCode',
     component: () => import('../views/qrCode.vue'),
     meta: { title: '二维码' }
   },
   {
     path: '/echart',
-    name: 'echart',
     component: () => import('../views/echart.vue'),
     meta: { title: 'echart' }
   },
   {
     path: '/map',
-    name: 'map',
     component: () => import('../views/map.vue'),
     meta: { title: '高德地图' }
   },
   {
     path: '/share',
-    name: 'share',
     component: () => import('../views/share.vue'),
     meta: { title: '分享组件' }
+  },
+  {
+    path: '/pdf',
+    component: () => import('../views/pdf.vue'),
+    meta: { title: 'pdf预览' }
+  },
+  {
+    path: '/pdf1',
+    component: () => import('../views/pdf1.vue'),
+    meta: { title: 'pdf预览' }
   }
 ]
 
