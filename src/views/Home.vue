@@ -18,7 +18,8 @@ export default {
         { name: '微信分享', url: '/share' },
         { name: '文件上传', url: '/upload' },
         { name: '省市联动', url: '/AMap' },
-        { name: 'pdf预览', url: '/pdf' }
+        { name: 'pdf预览', url: '/pdf' },
+        { name: '滚动导航栏', url: '/nav' }
       ]
     }
   },

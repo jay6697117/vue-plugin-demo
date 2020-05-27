@@ -23,6 +23,5 @@ export default {
   font-size: 16px;
   background: #fff;
   box-sizing: border-box;
-  text-align: center;
 }
 </style>

@@ -43,6 +43,11 @@ const routes = [
     path: '/upload',
     component: () => import('../views/upload.vue'),
     meta: { title: '图片上传预览' }
+  },
+  {
+    path: '/nav',
+    component: () => import('../views/nav.vue'),
+    meta: { title: '滚动导航栏' }
   }
 ]
 
