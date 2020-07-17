@@ -3,10 +3,14 @@
     <!-- <div class="tip">不带logo的二维码</div> -->
     <div id="qrcode"></div>
     <div class="bot">扫码以上二维码前往我的掘金</div>
-    <canvas id="canvas"></canvas>
-    <div>
-      <van-button type="info" round size="small" @click="downLoad">下载二维码</van-button>
+
+    <div style="text-align:center">
+      <canvas id="canvas"></canvas>
+      <div>
+        <van-button type="info" round size="small" @click="downLoad">下载二维码</van-button>
+      </div>
     </div>
+
     <img src="" alt="" id="image" style="display:none" />
     <!-- <img id="image" alt=""> -->
   </div>

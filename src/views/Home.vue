@@ -13,13 +13,14 @@ export default {
       list: [
         { name: '二维码', url: '/qrCode' },
         { name: 'echart', url: '/echart' },
-        { name: '中国地图', url: '/ChinaMap' },
+        { name: '中国地图', url: '/chinaMap' },
         { name: '高德地图', url: '/map' },
         { name: '微信分享', url: '/share' },
         { name: '文件上传', url: '/upload' },
         { name: '省市联动', url: '/AMap' },
         { name: 'pdf预览', url: '/pdf' },
-        { name: '滚动导航栏', url: '/nav' }
+        { name: '滚动导航栏', url: '/nav' },
+        { name: 'day.js时间转化', url: '/day' }
       ]
     }
   },

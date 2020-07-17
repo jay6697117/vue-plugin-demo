@@ -25,6 +25,11 @@ const routes = [
     meta: { title: '高德地图' }
   },
   {
+    path: '/chinaMap',
+    component: () => import('../views/chinaMap.vue'),
+    meta: { title: '中国地图' }
+  },
+  {
     path: '/share',
     component: () => import('../views/share.vue'),
     meta: { title: '分享组件' }
@@ -48,6 +53,11 @@ const routes = [
     path: '/nav',
     component: () => import('../views/nav.vue'),
     meta: { title: '滚动导航栏' }
+  },
+  {
+    path: '/day',
+    component: () => import('../views/day.vue'),
+    meta: { title: 'day.js' }
   }
 ]
 
